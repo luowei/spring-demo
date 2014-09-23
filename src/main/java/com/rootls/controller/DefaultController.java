@@ -17,6 +17,7 @@ public class DefaultController {
     @RequestMapping("/")
     public String index(){
         logger.debug("default index !!");
+//        logger.debug("=========================rootls.com========");
         return "index";
     }
 

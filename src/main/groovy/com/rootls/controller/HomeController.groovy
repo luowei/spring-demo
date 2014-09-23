@@ -15,7 +15,8 @@ class HomeController {
     @RequestMapping
     def index(){
         log.debug " home index !!!"
-        "index";
+//        log.debug ("--------------rootls.com------------")
+        "home/index";
     }
 
 }
